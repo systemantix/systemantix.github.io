@@ -1,4 +1,4 @@
-/* Generated on: Wed Aug 12 2020 12:28:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 12 2020 13:55:35 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -310,6 +310,9 @@
 }
 
 @media screen and (max-width: 991px) {
+  .heading {
+    padding-right: 20px;
+  }
   .footer {
     padding-right: 20px;
     padding-left: 20px;
@@ -323,12 +326,31 @@
   .nav-grid {
     text-align: center;
   }
+  .heading {
+    padding-left: 20px;
+  }
+  .paragraph {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .heading-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .text-block {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .footer {
     padding: 40px 20px;
   }
   .footer-image {
     -o-object-fit: contain;
     object-fit: contain;
+  }
+  .grid-4 {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
@@ -337,6 +359,13 @@
     padding: 0px;
   }
   .nav-grid {
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
     grid-auto-flow: row;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -355,17 +384,20 @@
   }
   .heading {
     padding-right: 10px;
-    padding-left: 10px;
-    font-size: 42px;
+    padding-left: 20px;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -2.5px;
   }
   .paragraph {
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 18px;
+    font-size: 20px;
+  }
+  .heading-2 {
+    font-size: 24px;
+    letter-spacing: -1.5px;
   }
   .text-block {
-    padding-right: 10px;
-    padding-left: 10px;
+    font-size: 14px;
   }
   .footer {
     padding-right: 20px;
