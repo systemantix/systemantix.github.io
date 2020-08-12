@@ -1,4 +1,4 @@
-/* Generated on: Wed Aug 12 2020 13:55:35 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 12 2020 14:03:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -53,10 +53,11 @@
   grid-auto-columns: max-content;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  -ms-grid-columns: 1fr -webkit-max-content -webkit-max-content -webkit-max-content;
-  -ms-grid-columns: 1fr max-content max-content max-content;
-  grid-template-columns: 1fr -webkit-max-content -webkit-max-content -webkit-max-content;
-  grid-template-columns: 1fr max-content max-content max-content;
+  grid-template-areas: ".";
+  -ms-grid-columns: 1fr 20px -webkit-max-content;
+  -ms-grid-columns: 1fr 20px max-content;
+  grid-template-columns: 1fr -webkit-max-content;
+  grid-template-columns: 1fr max-content;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   font-family: Inter, sans-serif;
@@ -134,7 +135,7 @@
   font-family: Inter, sans-serif;
   font-size: 28px;
   font-weight: 400;
-  letter-spacing: -2.5px;
+  letter-spacing: -1.5px;
 }
 
 .utility-page-wrap {
