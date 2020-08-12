@@ -1,4 +1,4 @@
-/* Generated on: Wed Aug 12 2020 14:03:21 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 12 2020 14:16:59 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -53,11 +53,10 @@
   grid-auto-columns: max-content;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-areas: ".";
-  -ms-grid-columns: 1fr 20px -webkit-max-content;
-  -ms-grid-columns: 1fr 20px max-content;
-  grid-template-columns: 1fr -webkit-max-content;
-  grid-template-columns: 1fr max-content;
+  -ms-grid-columns: 1fr -webkit-max-content -webkit-max-content -webkit-max-content;
+  -ms-grid-columns: 1fr max-content max-content max-content;
+  grid-template-columns: 1fr -webkit-max-content -webkit-max-content -webkit-max-content;
+  grid-template-columns: 1fr max-content max-content max-content;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   font-family: Inter, sans-serif;
@@ -135,7 +134,7 @@
   font-family: Inter, sans-serif;
   font-size: 28px;
   font-weight: 400;
-  letter-spacing: -1.5px;
+  letter-spacing: -2.5px;
 }
 
 .utility-page-wrap {
@@ -311,9 +310,6 @@
 }
 
 @media screen and (max-width: 991px) {
-  .heading {
-    padding-right: 20px;
-  }
   .footer {
     padding-right: 20px;
     padding-left: 20px;
@@ -327,31 +323,12 @@
   .nav-grid {
     text-align: center;
   }
-  .heading {
-    padding-left: 20px;
-  }
-  .paragraph {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .heading-2 {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .text-block {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
   .footer {
     padding: 40px 20px;
   }
   .footer-image {
     -o-object-fit: contain;
     object-fit: contain;
-  }
-  .grid-4 {
-    padding-right: 20px;
-    padding-left: 20px;
   }
 }
 
@@ -360,13 +337,6 @@
     padding: 0px;
   }
   .nav-grid {
-    -webkit-box-pack: start;
-    -webkit-justify-content: start;
-    -ms-flex-pack: start;
-    justify-content: start;
-    -webkit-align-content: space-around;
-    -ms-flex-line-pack: distribute;
-    align-content: space-around;
     grid-auto-flow: row;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -385,20 +355,17 @@
   }
   .heading {
     padding-right: 10px;
-    padding-left: 20px;
-    font-size: 30px;
-    line-height: 39px;
-    letter-spacing: -2.5px;
+    padding-left: 10px;
+    font-size: 42px;
   }
   .paragraph {
-    font-size: 20px;
-  }
-  .heading-2 {
-    font-size: 24px;
-    letter-spacing: -1.5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
   }
   .text-block {
-    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .footer {
     padding-right: 20px;
